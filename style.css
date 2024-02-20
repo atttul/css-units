@@ -3,12 +3,14 @@ h1{
 }
 header{
     font-size: 2em;
-    height: 500px;
+
 }
 body{
     font-size: 1.5rem;
+    border: 25px green solid;
 }
 
 header{
     border: 50px brown solid;
 }
+
