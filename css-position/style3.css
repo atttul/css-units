@@ -3,32 +3,38 @@
 }
 .container{
     width: 300px;
-    height: 300px;
+    height: 600px;
     background-color: grey;
-    
+    margin: 100px;
 }
 
 .boxs{
-    width: 30px;
-    height: 30px;
-    
-    
+    width: 100px;
+    height: 100px; 
 }
 .red{
     position: relative;
     background-color: red;
-    top: 30px;
-    left: 30px;
-    border: 5px grey solid;
+    top: 100px;
+    left: 100px;
 }
 .blue{
     background-color: blue;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
-    right: 0px;
-    
+    right: 0px; 
 }
 .green{
     background-color: green;
-    
+    position: absolute;
+    left: 0px;
+}
+.purple{
+    background-color: purple;
+    position: sticky;
+    top: 50px;
+}
+.spacer{
+    width: 1000px;
+    height: 1000px; 
 }
