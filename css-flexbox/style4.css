@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    border: 2px green solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    margin: 5px;
+    border: 1px red solid;
+}
